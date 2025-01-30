@@ -1,76 +1,134 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Inter", serif;
-    color: white;
+    font-family: "Poppins", serif;
 }
 
 .hero-section{
+    width: 100%;
     height: 100vh;
-    width: 100%;
-    border: 5px solid black;
-}
-
-.header-section{
-    height: 100%;
-    width: 100%;
+    background-color: pink;
     background-image: url(Images/hero_section\ img.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center; 
+    background-repeat: no-repeat
 }
 
-
-.main-navbar{
-    height: 60px;
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    color: wheat;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
 }
 
-.nav-logo img{
+.left-nav-side{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    left: 50px;
+}
+
+.left-nav-side img{
     width: 159px;
     height: 32px;
 }
 
-.main-navbar ul{
+.left-nav-side ul{
     display: flex;
-    gap: 32px;
-    align-items: center;
     list-style: none;
+    gap: 30px;
+}
+
+.links a{
     text-decoration: none;
+    font-size: 0.90rem;
+    color: white;
+    font-weight: 600;
+
 }
 
-.unorder-list a{
-    text-decoration: none;
-}
-
-.nav-left{
-    display: flex;
-    margin-left: 5%;
-    gap: 32px;
-}
-
-.nav-button{
-    background-color: white;
-    color: black;
+.nav-bar button{
+    width: 124px;
+    height: 44px;
     border-radius: 50px;
-    padding: 13px 20px;
-    font-weight: bold;
-    margin-right: 5%;
+    position: relative;
+    right: 35px;
+}
+
+.nav-bar i{
+    display: none;
 }
 
 
-@media (max-width: 768px) {
-    .header-section{
-        
-        width: fit-content;
+
+@media (max-width:767px) {
+    .hero-section{
+        width: 100%;
+        height: 90vh;
+        background-color: pink;
         background-image: url(Images/hero_section\ img.png);
         background-size: cover;
-        background-repeat: no-repeat;
+        background-position: center;
     }
 
+    .nav-bar{
+        width: 100%;
+        height: 80px;
+        color: wheat;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .left-nav-side{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        position: relative;
+        left: 30px;
+    }
+    
+    .left-nav-side img{
+        width: 159px;
+        height: 32px;
+        position: relative;
+        bottom: 10px;
+    }
+    
+    .left-nav-side ul{
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        display: none;
+    }
+    
+    .links a{
+        text-decoration: none;
+        font-size: 0.90rem;
+        color: white;
+        font-weight: 600;
+        display: none;
+    
+    }
+    
+    .nav-bar button{
+        width: 124px;
+        height: 44px;
+        border-radius: 50px;
+        position: relative;
+        right: 35px;
+        display: none;
+    }
+
+    .nav-bar i{
+        display: block;
+        position: relative;
+        right: 20px;
+        bottom: 10px;
+        font-size: 1.3rem;
+    }
+    
 }
-
-
-
