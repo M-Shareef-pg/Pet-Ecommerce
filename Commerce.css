@@ -7,9 +7,9 @@
 .hero-section{
     width: 100%;
     height: 100vh;
-    background-color: pink;
+    background-color: rgb(0, 0, 0);
     background-image: url(Images/hero_section\ img.png);
-    background-size: 100% 100%;
+    background-size: 92% 100%;
     background-position: center; 
     background-repeat: no-repeat
 }
@@ -28,7 +28,7 @@
     align-items: center;
     gap: 50px;
     position: relative;
-    left: 50px;
+    left: 100px;
 }
 
 .left-nav-side img{
@@ -55,16 +55,83 @@
     height: 44px;
     border-radius: 50px;
     position: relative;
-    right: 35px;
+    right: 130px;
 }
 
 .nav-bar i{
     display: none;
 }
 
+/* content iside hero section */
 
+.content-hero{
+     color: white;
+    width: 630px;
+    height: 390px;  
+    position: relative;
+    top: 100px;
+    left: 130px;
+    display: grid;
+    flex-direction: column;
+}
+
+.content-hero h1{
+    font-weight: 400;
+    font-size: 3rem;
+    width: 95%;
+    line-height: 1.1;
+}
+
+.content-hero p{
+    font-size: 0.90rem;
+    width: 95%;    
+}
+
+.content-hero button{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 191px;
+    height: 64px;
+    border-radius: 50px;
+    background-color: transparent;
+    border-color: white;
+    gap: 10px;
+}
+
+.shop-section{
+    width: 100%;
+    height: 100vh;
+    background-size: 92% 100%;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+
+
+/* For Mobiles phones */
 
 @media (max-width:767px) {
+
+    /* Hero section */
     .hero-section{
         width: 100%;
         height: 90vh;
@@ -130,5 +197,239 @@
         bottom: 10px;
         font-size: 1.3rem;
     }
+
+    /* content iside hero section */
+
+.content-hero{
+   color: white;
+   width: 313px;
+   height: 420px;
+   position: relative;
+   top: 120px;
+   left: 20px;
+   display: grid;
+   flex-direction: column; 
+}
+
+.content-hero h1{
+   font-weight: 400;
+   font-size: 2rem;
+   width: 100%;
+   line-height: 1.2;
+}
+
+.content-hero p{
+   font-size: 0.80rem;
+   width: 100%;   
+}
+
+.content-hero button{
+   color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 191px;
+   height: 64px;
+   border-radius: 50px;
+   background-color: transparent;
+   border-color: white;
+   gap: 10px;
+}
     
+}
+
+
+/* For Mini tablets */
+
+@media (min-width: 767px) and (max-width: 1023px) {
+
+    /* Hero Section */
+    .hero-section{
+        width: 100%;
+        height: 90vh;
+        background-color: pink;
+        background-image: url(Images/hero_section\ img.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .nav-bar{
+        width: 100%;
+        height: 80px;
+        color: wheat;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .left-nav-side{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        position: relative;
+        left: 50px;
+    }
+    
+    .left-nav-side img{
+        width: 200px;
+        height: 40px;
+        position: relative;
+        bottom: 10px;
+    }
+    
+    .left-nav-side ul{
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        display: none;
+    }
+    
+    .links a{
+        text-decoration: none;
+        font-size: 0.90rem;
+        color: white;
+        font-weight: 600;
+        display: none;
+    
+    }
+    
+    .nav-bar button{
+        width: 124px;
+        height: 44px;
+        border-radius: 50px;
+        position: relative;
+        right: 35px;
+        display: none;
+    }
+
+    .nav-bar i{
+        display: block;
+        position: relative;
+        right: 40px;
+        bottom: 10px;
+        font-size: 1.5rem;
+    }
+
+    /* content iside hero section */
+
+.content-hero{
+    color: white;
+    width: 313px;
+    height: 420px;
+    position: relative;
+    top: 70px;
+    right: 0;
+    left: 60px;
+    display: grid;
+    flex-direction: column; 
+ }
+ 
+ .content-hero h1{
+    font-weight: 400;
+    font-size: 2rem;
+    width: 100%;
+    line-height: 1.2;
+ }
+ 
+ .content-hero p{
+    font-size: 0.80rem;
+    width: 100%;   
+ }
+ 
+ .content-hero button{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 191px;
+    height: 64px;
+    border-radius: 50px;
+    background-color: transparent;
+    border-color: white;
+    gap: 10px;
+ }
+   
+}
+
+
+/* For larger tablets and laptops and small desktops */
+
+@media (min-width: 1024px) and (max-width: 1279px){
+
+      /* Hero Section */
+    .hero-section{
+        width: 100%;
+        height: 100vh;
+        background-image: url(Images/hero_section\ img.png);
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat
+    }
+    
+    .nav-bar{
+        width: 100%;
+        height: 80px;
+        color: wheat;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .left-nav-side{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        position: relative;
+        left: 50px;
+    }
+    
+    .left-nav-side img{
+        width: 159px;
+        height: 32px;
+    }
+    
+    .left-nav-side ul{
+        display: flex;
+        list-style: none;
+        gap: 30px;
+    }
+    
+    .links a{
+        text-decoration: none;
+        font-size: 1rem;
+        color: white;
+        font-weight: 600;
+    
+    }
+    
+    .nav-bar button{
+        width: 124px;
+        height: 44px;
+        border-radius: 50px;
+        position: relative;
+        right: 35px;
+    }
+    
+    .nav-bar i{
+        display: none;
+    }
+
+    .content-hero{
+        color: white;
+       width: 630px;
+       height: 390px;  
+       position: relative;
+       top: 150px;
+       left: 40px;
+       display: grid;
+       flex-direction: column;
+   }
+
+   .content-hero h1{
+    width: 80%;
+   }
+
+   .content-hero p{
+    width: 80%;
+   }
 }
