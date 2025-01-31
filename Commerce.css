@@ -145,8 +145,6 @@ body{
 .featured-products{
     width: 70%;
     height: 75.33%;
-    border: 2px solid #ccc;
-    border-left: none;
     position: relative;
     top: 13%;
     left: 15%;
@@ -389,45 +387,45 @@ body{
 .shop-section{
     justify-self: center;
     width: 100%;
-    height: 100vh;
+    height: 192vh;
     background-color: white; 
 }
 
 .shop-nav{
-    width: 80%;
-    border-bottom: 2px solid #ccc;
+    width: 90%;
     position: relative;
-    top: 10%;
-    left: 10%;
-    height: 4%;
+    left: 5%;
     display: flex;
     justify-content: start;
     align-items: center;
+    top: 0;
+    top: 30px;
 }
 
 .shop-nav img{
     width: 27.09px;
     height: 24.54px;
     margin-right: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .shop-nav h3{
     font-size: 1.4rem;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /* Featured Products */
 
 .featured-products{
-    width: 70%;
-    height: 75.33%;
-    border: 2px solid #ccc;
+    width: 90%;
+    height: auto;
+    border: none;
     border-left: none;
     position: relative;
-    top: 13%;
-    left: 15%;
+    top: 3%;
+    left: 0;
+    justify-self: center;
 }
 
 .featured-nav{
@@ -441,7 +439,7 @@ body{
 }
 
 .featured-nav h3{
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -472,17 +470,17 @@ body{
 .tab-menu {
     position: relative;
     top: -2%;
-    left: 25%;
-    width: 40%;
+    left: -5%;
+    right: 10%;
+    width: 100%;
     display: flex;
-    gap: 15px;
+    gap: 5px;
     padding: 10px;
-    display: none;
 }
 
 .tab {
-    padding: 10px 15px;
-    border-radius: 10px;
+    padding: 10px 11px;
+    border-radius: 5px;
     font-weight: bold;
     color: gray;
     background: white;
@@ -504,13 +502,15 @@ body{
     height: 55vh;
     width: 100%;
     display: flex;
-    gap: 1%;
-    display: none;
+    gap: 4%;
+    flex-wrap: wrap;
 }
 
 .p-img{
     background-size: cover;
     width: 100%;
+    height: 50vh;
+    border-radius: 10px;
 }
 
 .one{
