@@ -248,6 +248,117 @@ body{
 }
 
 
+/* Serivice Section */
+
+.services-section{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.services-nav{
+    width: 80%;
+    border-bottom: 2px solid #ccc;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    height: 4%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.services-nav img{
+    width: 27.09px;
+    height: 24.54px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.services-nav h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* Pet Activities */
+
+.activity-box{
+    width: 50%;
+    height: 70%;
+    justify-self: center;
+    position: relative;
+    top: 13%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.set-four{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    position: relative;
+    left: 1%;
+    top: 9%;
+    flex-wrap: wrap;
+    gap: 2%;
+    
+    
+}
+
+.set-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49%;
+    height: 50%;
+    border-radius: 4%;
+}
+
+.grooming{
+    background-image: url(Images/grooming.png);
+    background-size: 100% 100%;
+}
+
+.boarding{
+    background-image: url(Images/boading.png);
+    background-size: 100% 100%;
+}
+
+.veterinary{
+    background-image: url(Images/veterniary.png);
+    background-size: 100% 100%;
+}
+
+.training{
+    background-image: url(Images/training.png);
+    background-size: 100% 100%;
+}
+
+
+
+.big-main{
+    position: relative;
+    top: 9%;
+    width: 34.05%;
+    height: 80%;
+    background-image: url(Images/adoption.png);
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -787,6 +898,10 @@ body{
 }
 
 
+
+
+
+
 /* For larger tablets and laptops and small desktops */
 
 @media (min-width: 1024px) and (max-width: 1279px){
@@ -895,7 +1010,7 @@ body{
 }
 
 .shop-nav h3{
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 400;
     margin-bottom: 20px;
 }
@@ -921,8 +1036,10 @@ body{
 }
 
 .featured-nav h3{
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 500;
+    position: relative;
+    bottom: 30px;
 }
 
 .search-box {
@@ -933,6 +1050,8 @@ body{
     border-radius: 25px;
     width: 20%;
     margin-right: 5px;
+    position: relative;
+    bottom: 30px;
 }
 
 .search-box .icon {
@@ -951,7 +1070,7 @@ body{
 .tab-menu {
     position: relative;
     top: -2%;
-    left: 25%;
+    left: 17%;
     width: 40%;
     display: flex;
     gap: 15px;
