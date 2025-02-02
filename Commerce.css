@@ -335,7 +335,6 @@ body{
 }
 
 
-
 .big-main{
     position: relative;
     top: 9%;
@@ -344,6 +343,8 @@ body{
     background-image: url(Images/adoption.png);
     background-size: 100% 100%;
 }
+
+/* another section start */
 
 
 
