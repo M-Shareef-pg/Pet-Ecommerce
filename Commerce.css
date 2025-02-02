@@ -487,7 +487,7 @@ body{
 .shop-section{
     justify-self: center;
     width: 100%;
-    height: 192vh;
+    height: 180vh;
     background-color: white; 
 }
 
@@ -579,7 +579,7 @@ body{
 }
 
 .tab {
-    padding: 10px 11px;
+    padding: 10px 9px;
     border-radius: 5px;
     font-weight: bold;
     color: gray;
@@ -629,8 +629,112 @@ body{
     background-image: url(Images/Product\ Card.png);
     display: none;
 }
+
+/* Serivice Section */
+
+.services-section{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.services-nav{
+    width: 80%;
+    border-bottom: 2px solid #ccc;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    height: 4%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.services-nav img{
+    width: 27.09px;
+    height: 24.54px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.services-nav h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* Pet Activities */
+
+.activity-box{
+    width: 100%;
+    height: 70vh;
+    justify-self: center;
+    position: relative;
+    top: 13%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.set-four{
+    width: 95%;
+    height: 70%;
+    display: flex;
+    position: relative;
+    left: 0;
+    top: 1%;
+    flex-wrap: wrap;
+    gap: 2%;
+    
     
 }
+
+.set-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49%;
+    height: 50%;
+    border-radius: 4%;
+}
+
+.grooming{
+    background-image: url(Images/grooming.png);
+    background-size: 100% 100%;
+}
+
+.boarding{
+    background-image: url(Images/boading.png);
+    background-size: 100% 100%;
+}
+
+.veterinary{
+    background-image: url(Images/veterniary.png);
+    background-size: 100% 100%;
+}
+
+.training{
+    background-image: url(Images/training.png);
+    background-size: 100% 100%;
+}
+
+
+.big-main{
+    position: relative;
+    top: 3%;
+    left: 0;
+    width: 95%;
+    height: 35%;
+    background-image: url(Images/adoption-mobile.png);
+    background-size: 100% 100%;
+}
+    
+}
+
+
+
+
+
+
 
 
 /* For Mini tablets */
@@ -749,7 +853,7 @@ body{
 .shop-section{
     justify-self: center;
     width: 100%;
-    height: 192vh;
+    height: 123vh;
     background-color: white; 
 }
 
@@ -768,13 +872,13 @@ body{
     width: 27.09px;
     height: 24.54px;
     margin-right: 5px;
-    margin-bottom: -20px;
+    margin-bottom: 15px;
 }
 
 .shop-nav h3{
     font-size: 1.8rem;
     font-weight: 400;
-    margin-bottom: -20px;
+    margin-bottom: 15px;
 }
 
 /* Featured Products */
@@ -785,7 +889,7 @@ body{
     border: none;
     border-left: none;
     position: relative;
-    top: 3%;
+    top: 5%;
     left: 0;
     justify-self: center;
 }
@@ -894,8 +998,111 @@ body{
 .four {
     background-image: url(Images/Product\ Card.png);
 }
+
+
+/* Serivice Section */
+
+.services-section{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.services-nav{
+    width: 80%;
+    border-bottom: 2px solid #ccc;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    height: 4%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.services-nav img{
+    width: 27.09px;
+    height: 24.54px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.services-nav h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+/* Pet Activities */
+
+.activity-box{
+    width: 100%;
+    height: 70vh;
+    justify-self: center;
+    position: relative;
+    top: 13%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.set-four{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    position: relative;
+    left: 1%;
+    top: 1%;
+    flex-wrap: wrap;
+    gap: 2%;
+    
+    
+}
+
+.set-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49%;
+    height: 53%;
+    border-radius: 4%;
+}
+
+.grooming{
+    background-image: url(Images/grooming.png);
+    background-size: 100% 100%;
+}
+
+.boarding{
+    background-image: url(Images/boading.png);
+    background-size: 100% 100%;
+}
+
+.veterinary{
+    background-image: url(Images/veterniary.png);
+    background-size: 100% 100%;
+}
+
+.training{
+    background-image: url(Images/training.png);
+    background-size: 100% 100%;
+}
+
+
+.big-main{
+    position: relative;
+    top: 8%;
+    left: 1%;
+    width: 80%;
+    height: 38%;
+    background-image: url(Images/adoption-mobile.png);
+    background-size: 100% 100%;
+}
    
 }
+
+
+
 
 
 
