@@ -382,7 +382,6 @@ body{
 .about-para-section{
     width: 70%;
     height: 75vh;
-    border: 2px solid black;
     position: relative;
     top: 15%;
     justify-self: center;
@@ -390,19 +389,41 @@ body{
 }
 
 .left-para-section{
-    width: 50%;
+    width: 55%;
     height: 100%;
     line-height: 1.18;
-    
+   
 }
 
 
 .right-para-section{
     width: 50%;
     height: 100%;
-    border: 2px solid rgb(0, 0, 0);
 }
 
+
+.right-para-image-div{
+    width: 60%;
+    height: 75%;
+    background-image: url(Images/big\ cat.png);
+    background-size: 100% 100%;
+    position: relative;
+    left: 20%;
+    top: 0%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 100%, 39% 70%, 0% 70%);
+    border-radius: 20px; 
+}
+
+.right-para-second-image-div{
+    background-image: url(Images/small\ cat\ \(1\).png);
+    background-size: cover;
+    width: 30%;
+    height: 30%;
+    position: relative;
+    bottom: 21%;
+    left: 12.2%;
+    border-radius: 20px; 
+}
 
 
 
