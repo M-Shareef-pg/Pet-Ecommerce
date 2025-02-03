@@ -344,7 +344,66 @@ body{
     background-size: 100% 100%;
 }
 
-/* another section should be start */
+/* Aboutus Section */
+
+.aboutus-section{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.aboutus-nav{
+    width: 80%;
+    border-bottom: 2px solid #ccc;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    height: 4%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.aboutus-nav img{
+    width: 27.09px;
+    height: 24.54px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.aboutus-nav h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* Aboutus Para Section */
+
+.about-para-section{
+    width: 70%;
+    height: 75vh;
+    border: 2px solid black;
+    position: relative;
+    top: 15%;
+    justify-self: center;
+    display: flex;
+}
+
+.left-para-section{
+    width: 50%;
+    height: 100%;
+    line-height: 1.18;
+    
+}
+
+
+.right-para-section{
+    width: 50%;
+    height: 100%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
 
 
 
