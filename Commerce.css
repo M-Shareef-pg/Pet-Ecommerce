@@ -181,9 +181,10 @@ body{
 }
 
 .search-box input {
-    border: none;
-    background: none;
+    border: transparent;
+    background: transparent;
     font-size: 16px;
+    outline: none;
 }
 
 /* tab menu */
@@ -233,18 +234,22 @@ body{
 
 .one{
     background-image: url(Images/Product\ Card.png);
+    background-size: 100% 100%;
 }
 
 .two{
     background-image: url(Images/Product\ Card\ \(1\).png);
+    background-size: 100% 100%;
 }
 
 .three{
     background-image: url(Images/Product\ Card\ \(2\).png);
+    background-size: 100% 100%;
 }
 
 .four{
     background-image: url(Images/Product\ Card.png);
+    background-size: 100% 100%;
 }
 
 
@@ -356,7 +361,7 @@ body{
     width: 80%;
     border-bottom: 2px solid #ccc;
     position: relative;
-    top: 10%;
+    top: -10%;
     left: 10%;
     height: 4%;
     display: flex;
@@ -386,6 +391,8 @@ body{
     top: 15%;
     justify-self: center;
     display: flex;
+    position: relative;
+    top: -5%;
 }
 
 .left-para-section{
@@ -422,7 +429,7 @@ body{
     position: relative;
     bottom: 21%;
     left: 12.2%;
-    border-radius: 20px; 
+    border-radius: 16px; 
 }
 
 
@@ -808,6 +815,95 @@ body{
     background-image: url(Images/adoption-mobile.png);
     background-size: 100% 100%;
 }
+
+
+
+/* Aboutus Section */
+
+.aboutus-section{
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    background-color: white;
+}
+
+.aboutus-nav{
+    width: 95%;
+    border-bottom: 2px solid #ccc;
+    position: relative;
+    top: 3%;
+    left: 3%;
+    height: 4%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.aboutus-nav img{
+    width: 27.09px;
+    height: 24.54px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.aboutus-nav h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* Aboutus Para Section */
+
+.about-para-section{
+    width: 90%;
+    height: 120vh;
+    position: relative;
+    top: 5%;
+    justify-self: center;
+    display: flex;
+    
+}
+
+.left-para-section{
+    width: 100%;
+    height: 100%;
+    line-height: 1.15;
+    color: #667085;
+   
+}
+
+
+.right-para-section{
+    width: 50%;
+    height: 100%;
+    display: none;
+}
+
+
+.right-para-image-div{
+    width: 60%;
+    height: 75%;
+    background-image: url(Images/big\ cat.png);
+    background-size: 100% 100%;
+    position: relative;
+    left: 20%;
+    top: 0%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 100%, 39% 70%, 0% 70%);
+    border-radius: 20px; 
+    display: none;
+}
+
+.right-para-second-image-div{
+    background-image: url(Images/small\ cat\ \(1\).png);
+    background-size: cover;
+    width: 30%;
+    height: 30%;
+    position: relative;
+    bottom: 21%;
+    left: 12.2%;
+    border-radius: 16px; 
+    display: none;
+}
     
 }
 
@@ -1179,8 +1275,97 @@ body{
     background-image: url(Images/adoption-mobile.png);
     background-size: 100% 100%;
 }
+
+/* Aboutus Section */
+
+.aboutus-section{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+}
+
+.aboutus-nav{
+    width: 95%;
+    border-bottom: 2px solid #ccc;
+    position: relative;
+    top: 3%;
+    left: 3%;
+    height: 4%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.aboutus-nav img{
+    width: 27.09px;
+    height: 24.54px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.aboutus-nav h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* Aboutus Para Section */
+
+.about-para-section{
+    width: 90%;
+    height: 50vh;
+    position: relative;
+    top: 5%;
+    justify-self: center;
+    display: flex;
+    
+}
+
+.left-para-section{
+    width: 100%;
+    height: 60vh;
+    line-height: 1.40;
+    color: #667085;
    
 }
+
+
+.right-para-section{
+    width: 50%;
+    height: 100%;
+    display: none;
+}
+
+
+.right-para-image-div{
+    width: 60%;
+    height: 75%;
+    background-image: url(Images/big\ cat.png);
+    background-size: 100% 100%;
+    position: relative;
+    left: 20%;
+    top: 0%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 100%, 39% 70%, 0% 70%);
+    border-radius: 20px; 
+    display: none;
+}
+
+.right-para-second-image-div{
+    background-image: url(Images/small\ cat\ \(1\).png);
+    background-size: cover;
+    width: 30%;
+    height: 30%;
+    position: relative;
+    bottom: 21%;
+    left: 12.2%;
+    border-radius: 16px; 
+    display: none;
+}
+   
+}
+
+
 
 
 
@@ -1420,7 +1605,7 @@ body{
 
 .services-section{
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     background-color: white;
 }
 
@@ -1453,7 +1638,7 @@ body{
 
 .activity-box{
     width: 80%;
-    height: 50%;
+    height: 80%;
     justify-self: center;
     position: relative;
     top: 13%;
@@ -1511,6 +1696,89 @@ body{
     height: 81.5%;
     background-image: url(Images/adoption.png);
     background-size: 100% 100%;
+}
+
+/* Aboutus Section */
+
+.aboutus-section{
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+}
+
+.aboutus-nav{
+    width: 80%;
+    border-bottom: 2px solid #ccc;
+    position: relative;
+    top: 4%;
+    left: 10%;
+    height: 4%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.aboutus-nav img{
+    width: 27.09px;
+    height: 24.54px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.aboutus-nav h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* Aboutus Para Section */
+
+.about-para-section{
+    width: 90%;
+    height: 45vh;
+    position: relative;
+    top: 15%;
+    justify-self: center;
+    display: flex;
+    position: relative;
+    top: 6%;
+}
+
+.left-para-section{
+    width: 55%;
+    height: 50vh;
+    line-height: 1.18;
+   
+}
+
+
+.right-para-section{
+    width: 50%;
+    height: 100%;
+}
+
+
+.right-para-image-div{
+    width: 80%;
+    height: 70%;
+    background-image: url(Images/big\ cat.png);
+    background-size: 100% 100%;
+    position: relative;
+    left: 20%;
+    top: 0%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 40% 100%, 39% 70%, 0% 70%);
+    border-radius: 20px; 
+}
+
+.right-para-second-image-div{
+    background-image: url(Images/small\ cat\ \(1\).png);
+    background-size: cover;
+    width: 45%;
+    height: 35%;
+    position: relative;
+    bottom: 20%;
+    left: 5%;
+    border-radius: 16px; 
 }
 
 
